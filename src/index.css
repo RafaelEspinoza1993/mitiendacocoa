@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.NavbarCore{
+  flex-direction: column;
+}
+.NavbarCore, .NavbarNucleos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
