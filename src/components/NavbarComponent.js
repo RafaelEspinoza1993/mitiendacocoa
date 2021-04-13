@@ -4,7 +4,7 @@ function NavbarComponent() {
   return (
     <div className='NavbarCore'>
       <img
-        height={150}
+        height={80}
         className="d-block"
         src='/assets/img/logo.jpg'
         alt="First slide"

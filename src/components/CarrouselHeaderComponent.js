@@ -6,7 +6,7 @@ function CarrouselHeaderComponent() {
     <Carousel fade>
       <Carousel.Item>
         <img
-          height={600}
+          height={550}
           className="d-block w-100"
           src='/assets/img/carousel_1.jpg'
           alt="First slide"
@@ -18,7 +18,7 @@ function CarrouselHeaderComponent() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          height={600}
+          height={550}
           className="d-block w-100"
           src="/assets/img/carousel_2.jpg"
           alt="Second slide"
@@ -31,7 +31,7 @@ function CarrouselHeaderComponent() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          height={600}
+          height={550}
           className="d-block w-100"
           src="/assets/img/carousel_5.jpg"
           alt="Third slide"
