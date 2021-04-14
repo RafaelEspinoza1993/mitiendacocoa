@@ -3,7 +3,6 @@ import Card from 'react-bootstrap/Card'
 function About() {
   return (
     <div className='AboutCore'>
-      <h1 className='display-4 text-center'>About us</h1>
       <Card>
         <Card.Body>
           <p>
@@ -51,27 +50,36 @@ function About() {
           </div>
         </div>
         <div className='AboutTercerNucleo'>
-          <img
-            height={250}
-            width={250}
-            className="d-block"
-            src='/assets/img/producto_1.jpg'
-            alt="About Description"
-          />
-          <img
-            height={250}
-            width={250}
-            className="d-block"
-            src='/assets/img/producto_2.jpg'
-            alt="About Description"
-          />
-          <img
-            height={250}
-            width={250}
-            className="d-block"
-            src='/assets/img/producto_3.jpg'
-            alt="About Description"
-          />
+          <Card style={{ width: '18rem'}}>
+            <Card.Img variant="top" height={200} src="/assets/img/producto_1.jpg" />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up the bulk of
+                the card's content.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card style={{ width: '18rem' }}>
+            <Card.Img variant="top" height={200} src="/assets/img/producto_2.jpg" />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up the bulk of
+                the card's content.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card style={{ width: '18rem' }}>
+            <Card.Img variant="top" height={200} src="/assets/img/producto_3.jpg" />
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up the bulk of
+                the card's content.
+              </Card.Text>
+            </Card.Body>
+          </Card>
         </div>
     </div>
   );

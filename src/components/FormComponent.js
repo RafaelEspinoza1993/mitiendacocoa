@@ -39,7 +39,7 @@ function FormComponent() {
                     <img
                         height={250}
                         className="d-block"
-                        src='/assets/img/logo.jpg'
+                        src='/assets/img/logo.png'
                     />
                 </div>
             </Card.Body>

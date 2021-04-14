@@ -5,19 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(255, 255, 255);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.NavbarCore, .NavbarNucleos{
+
+.carousel_1, .carousel_2, .carousel_3{
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.NavbarCore{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .Content, .AboutSecondNucleo, .AboutTercerNucleo, .Formdiv, .FooterCore{
-  margin-top: 40px;
+  margin-top: 60px;
 }
 .FormNucleo{
   display: flex;

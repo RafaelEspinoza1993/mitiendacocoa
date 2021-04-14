@@ -46,7 +46,7 @@ function FooterComponents() {
                 <Navbar.Brand href="#home">
                     <img
                         alt=""
-                        src='/assets/img/logo.jpg'
+                        src='/assets/img/logo.png'
                         width={80}
                         height={80}
                         className="d-inline-block align-top"

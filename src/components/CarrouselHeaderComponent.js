@@ -1,46 +1,44 @@
 import Carousel from 'react-bootstrap/Carousel'
 
-
+const carousel_1 = {
+  backgroundImage: 'url("/assets/img/carousel_1.jpg")',
+};
+const carousel_2 = {
+  backgroundImage: 'url("/assets/img/carousel_2.jpg")',
+};
+const carousel_3 = {
+  backgroundImage: 'url("/assets/img/carousel_3.jpg")',
+};
+const heightImage = 850
 function CarrouselHeaderComponent() {
   return (
     <Carousel fade>
       <Carousel.Item>
         <img
-          height={550}
-          className="d-block w-100"
-          src='/assets/img/carousel_1.jpg'
+          height={heightImage}
+          className="d-block w-100 carousel_1"
+          style={carousel_1}
+          src=''
           alt="First slide"
         />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          height={550}
-          className="d-block w-100"
-          src="/assets/img/carousel_2.jpg"
+          height={heightImage}
+          className="d-block w-100 carousel_2"
+          style={carousel_2}
+          src=""
           alt="Second slide"
         />
-
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          height={550}
-          className="d-block w-100"
-          src="/assets/img/carousel_5.jpg"
+          height={heightImage}
+          className="d-block w-100 carousel_3"
+          style={carousel_3}
+          src=""
           alt="Third slide"
         />
-
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
   );
