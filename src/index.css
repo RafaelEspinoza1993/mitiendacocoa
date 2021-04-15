@@ -5,14 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgb(255, 255, 255);
+  background: #7230240f;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.parallax {
 
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .carousel_1, .carousel_2, .carousel_3{
   height: 800px;
   background-repeat: no-repeat;
@@ -38,7 +48,8 @@ code {
   justify-content: center;
   gap: 20px;
 }
-.AboutSecondNucleo{
+.AboutSecondNucleo, .Formdiv{
+  justify-content: center;
   display: flex;
   align-items: center;
   gap: 30px;
@@ -46,21 +57,42 @@ code {
 .cardeditedfooter{
   width: 70%;
   margin: 0 auto;
-  margin-bottom: -30px;
+  margin-bottom: -10px;
   z-index: 1;
 }
 .redsocialdiv{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   gap: 10px;
-}
-.redsocialcore{
-  display: grid;
-  grid-template-columns: 30% 70%;
-  align-content: center;
 }
 .AboutTexts{
   display: flex;
   flex-direction:column;
   gap: 20px;
+}
+
+.card {
+  border: 3px solid #723024 !important;
+}
+.titleborder{
+  font-size: 30px !important;
+  margin: 0 40px;
+}
+.h1title, .titleborder{
+  border-bottom: 3px solid #3f7e19;
+}
+.h1title{
+  margin: 0 150px;
+}
+.buttonedited{
+  background-color: #F9511C !important;
+  border: 3px solid #3f7e19 !important;
+}
+.buttonedited:hover{
+  background-color: #3f7e19 !important;
+  border: 3px solid #F9511C !important;
+}
+a{
+  color: #723024 !important;
 }

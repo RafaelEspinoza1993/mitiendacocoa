@@ -4,12 +4,14 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 
+const paralax = {backgroundImage: 'url("/assets/img/Contact.jpg")'}
+
 function FormComponent() {
   return (
-    <div className='Formdiv'>
-        <h1 className='display-4 text-center'>Contact</h1>
+    <div className='Formdiv parallax' style={paralax} id='Contact'>
         <Card className='FormCore'>
             <Card.Body>
+                <Card.Title className='display-4 text-center h1title'>Contact</Card.Title>
                 <div className='FormNucleo'>
                     <Form>
                         <Form.Group as={Row} controlId="formPlaintextEmail">

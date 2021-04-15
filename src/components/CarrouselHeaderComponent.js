@@ -12,33 +12,27 @@ const carousel_3 = {
 const heightImage = 850
 function CarrouselHeaderComponent() {
   return (
-    <Carousel fade>
+    <Carousel fade id='Home'>
       <Carousel.Item>
-        <img
+        <div
           height={heightImage}
           className="d-block w-100 carousel_1"
-          style={carousel_1}
-          src=''
-          alt="First slide"
-        />
+          style={carousel_1}>
+        </div>
       </Carousel.Item>
       <Carousel.Item>
-        <img
+        <div
           height={heightImage}
           className="d-block w-100 carousel_2"
-          style={carousel_2}
-          src=""
-          alt="Second slide"
-        />
+          style={carousel_2}>
+        </div>
       </Carousel.Item>
       <Carousel.Item>
-        <img
+        <div
           height={heightImage}
           className="d-block w-100 carousel_3"
-          style={carousel_3}
-          src=""
-          alt="Third slide"
-        />
+          style={carousel_3}>
+        </div>
       </Carousel.Item>
     </Carousel>
   );

@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav'
 
 function NavbarComponent() {
   return (
-      <Navbar defaultActiveKey="/home" fixed="top" variant="light" bg="light" className='NavbarCore'>
+      <Navbar defaultActiveKey="/home" collapseOnSelect fixed="top" bg="light" expand="lg" className='NavbarCore bg-light justify-content-between'>
         <Navbar.Brand href="#home">
           <img
             height={50}
@@ -13,7 +13,7 @@ function NavbarComponent() {
           />
         </Navbar.Brand>     
         <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="#Home">Home</Nav.Link>
           <Nav.Link href="#About">About</Nav.Link>
           <Nav.Link href="#Contact">Contact</Nav.Link>
         </Nav>
