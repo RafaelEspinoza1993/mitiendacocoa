@@ -3,8 +3,9 @@ import Form from 'react-bootstrap/Form'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
-
-const paralax = {backgroundImage: 'url("/assets/img/Contact.jpg")'}
+import paralax_img from '../img/Contact.jpg';
+import logo from '../img/logo.png';
+const paralax = {backgroundImage: 'url('+ paralax_img +')'}
 
 function FormComponent() {
   return (
@@ -41,7 +42,7 @@ function FormComponent() {
                     <img
                         height={250}
                         className="d-block"
-                        src='/assets/img/logo.png'
+                        src={logo}
                     />
                 </div>
             </Card.Body>

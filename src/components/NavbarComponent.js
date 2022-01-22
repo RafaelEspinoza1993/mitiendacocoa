@@ -1,14 +1,14 @@
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-
+import logo from '../img/logo.png';
 function NavbarComponent() {
   return (
       <Navbar defaultActiveKey="/home" collapseOnSelect fixed="top" bg="light" expand="lg" className='NavbarCore bg-light justify-content-between'>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="#Home">
           <img
             height={50}
             className="d-block"
-            src='/assets/img/logo.png'
+            src={logo}
             alt="First slide"
           />
         </Navbar.Brand>     

@@ -1,13 +1,15 @@
 import Carousel from 'react-bootstrap/Carousel'
-
+import carousel_img_1 from '../img/carousel_1.jpg';
+import carousel_img_2 from '../img/carousel_2.jpg';
+import carousel_img_3 from '../img/carousel_3.jpg';
 const carousel_1 = {
-  backgroundImage: 'url("/assets/img/carousel_1.jpg")',
+  backgroundImage: 'url('+ carousel_img_1 +')'
 };
 const carousel_2 = {
-  backgroundImage: 'url("/assets/img/carousel_2.jpg")',
+  backgroundImage: 'url('+ carousel_img_2 +')'
 };
 const carousel_3 = {
-  backgroundImage: 'url("/assets/img/carousel_3.jpg")',
+  backgroundImage: 'url('+ carousel_img_3 +')'
 };
 const heightImage = 850
 function CarrouselHeaderComponent() {

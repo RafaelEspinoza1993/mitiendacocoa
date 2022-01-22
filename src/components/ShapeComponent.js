@@ -2,6 +2,7 @@ const shape = {
   backgroundColor: '#59261B',
   position: 'absolute',
 }
+import shape_img from '../img/shape.png';
 
 function ShapeComponent() {
   return (
@@ -9,7 +10,7 @@ function ShapeComponent() {
       className="d-block"
       style={shape}
       fluid
-      src='/assets/img/shape.png'
+      src={shape_img}
     />
   );
 }

@@ -1,6 +1,7 @@
 import Card from 'react-bootstrap/Card'
 import Navbar from 'react-bootstrap/Navbar'
-
+import instagram from '../img/instagram.png';
+import whatsapp from '../img/whatsapp.png';
 function FooterComponents() {
   return (
         <div className='FooterCore'>
@@ -10,7 +11,7 @@ function FooterComponents() {
                         <a href="https://www.instagram.com/mitiendacocoa7" className='redsocialdiv'>
                             <img
                                 alt=""
-                                src='/assets/img/instagram.png'
+                                src={instagram}
                                 width={40}
                                 height={40}
                                 className="d-inline-block align-top"
@@ -20,7 +21,7 @@ function FooterComponents() {
                         <a href="https://wa.me/584165201170" className='redsocialdiv'>
                             <img
                                 alt=""
-                                src='/assets/img/whatsapp.png'
+                                src={whatsapp}
                                 width={40}
                                 height={40}
                                 className="d-inline-block align-top"

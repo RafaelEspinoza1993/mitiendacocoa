@@ -1,9 +1,12 @@
 import Card from 'react-bootstrap/Card'
 import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
-
+import AboutDescription from '../img/AboutDescription.jpg';
+import producto_1 from '../img/producto_1.jpg';
+import producto_2 from '../img/producto_2.jpg';
+import producto_3 from '../img/producto_3.jpg';
 const heightproducts = 300
-const paralax = {backgroundImage: 'url("/assets/img/AboutDescription.jpg")'}
+const paralax = {backgroundImage: 'url('+ AboutDescription +')'}
 function About() {
   return (
     <div className='AboutCore' id='About'>
@@ -55,7 +58,7 @@ function About() {
         </div>
         <div className='AboutTercerNucleo'>
           <Card style={{ width: '18rem'}}>
-            <Card.Img variant="top" height={heightproducts} src="/assets/img/producto_1.jpg" />
+            <Card.Img variant="top" height={heightproducts} src={producto_1} />
             <Card.Body>
               <Card.Title className='titleborder text-center'>Card Title</Card.Title>
               <Card.Text>
@@ -68,7 +71,7 @@ function About() {
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" height={heightproducts} src="/assets/img/producto_2.jpg" />
+            <Card.Img variant="top" height={heightproducts} src={producto_2} />
             <Card.Body>
               <Card.Title className='titleborder  text-center'>Card Title</Card.Title>
               <Card.Text>
@@ -81,7 +84,7 @@ function About() {
             </Card.Body>
           </Card>
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" height={heightproducts} src="/assets/img/producto_3.jpg" />
+            <Card.Img variant="top" height={heightproducts} src={producto_3} />
             <Card.Body>
               <Card.Title className='titleborder  text-center'>Card Title</Card.Title>
               <Card.Text>
